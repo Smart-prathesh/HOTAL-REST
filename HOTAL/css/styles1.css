@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* navbar */
+  #navbarNav a{
+    font-family: "Constantia";
+       color: black;
+       text-transform: capitalize ;
+    word-spacing: 2px;
+    padding: 10px;
+    }
+#navbarNav{
+    padding-right: 10px;
+    justify-content: space-around;
+    padding-left: 10px;
+   align-items: center;
+    font-weight: bold;
+  }
+  #logo{
+     width: 40%;
+     text-align:center;
+    
+  }
+  #lo{
+     color: blue;
+     font-family: "Jost",sans-serif;
+     font-size: 20px;
+     font-weight: inherit;
+  
+  }
+  
+  
+     /* Logo */
+  .logo-4{ padding: 20px;}
+  .logo-4 h3 {
+     color: #e74c3c;
+     font-weight: 300;
+     font-size: 52px;
+     line-height: 0.65;
+     font-family: 'Freestyle Script';
+     margin-left: 25px;
+  }
+  .logo-4 p {
+     font-size: 16px;
+     margin-left: 60px;
+     color: rgb(247, 0, 0);
+     font-weight: 400px;
+     text-transform: capitalize;
+     font-style: italic;
+     font-family: 'GHarrington';
+  }
+  /* Logo*/
+ #con h1{
+   text-align: center;
+   position: absolute;
+   padding-left: 25%;
+   font-size: 45px;
+   color:black;
+   font-family: "Ravie";
+ }
+ h2{
+    font-size: 30px;
+    font-family:"Tw Cen MT";
+   padding-left: 30%;
+ 
+ }
+ b{
+    font-size: 20px;
+    color: #413030; 
+    word-spacing: 9px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: "Vijaya";
+    padding:10px 10px;
+    margin: 0 0 15px;
+ }
+ .fact h3{
+   color: orange;
+   padding-left: 20%;
+   font-weight: bolder;
+   padding: 10px;
+   font-family: "Snap ITC";
+  }
+  .fact ul {
+   color:black;
+   padding: 15px;
+   padding-left: 50px;
+   font-family: 'MV Boli';
+  }
+  .fact ul li{
+   padding-left: 10px;
+  }
+   .image img {
+   padding-right: 30px;
+   padding: 10px;
+   background-color: skyblue;
+   
+  }img{ border-radius: 20px;}
+  .fat h3{
+   color: orange;
+   padding-left: 20%;
+   font-weight: bolder;
+   padding: 10px;
+   font-family: 'Snap ITC';
+  }
+  .fat ul {
+   color: black;
+   padding: 15px;
+   font-family: 'MV Boli';
+   padding-left: 50px;
+  }
+  .fat ul li{
+   padding-left: 10px;
+  
+  }
+  /* footer */
+.p-3{color:white;}
+footer{
+	
+	bottom: 0;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 17px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 15px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 46px 'Cookie', cursive;
+	margin: 2;
+}
+ 
+.footer-distributed h3 span{
+	color: orange;
+   font-family: "Berlin Sans FB";
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.3;
+	text-decoration: none;
+	color:  white;
+   font-family: "Comic Sans MS";
+   font-size: 16px;
+   padding: 3px;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+   font-family: "Bernard MT";
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+   padding: 10px;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 20px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+   font-size: 19px;
+   font-family: "Bell MT";
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:18px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color: yellow;
+	text-decoration: none;
+   font-family: "Sitka Small";
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:chartreuse;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0;
+   font-family: "Sitka Text";
+   padding: 5px;
+   word-spacing: 5px;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+font-family: "Century Schoolbook";
+
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+}
+.rounded{ padding-left: 20px; padding-right: 20px;}
+#photos { background-color: #f7f7f7; border-radius: 20px;    padding-top: 90px;
+   padding-bottom: 150px;}
+   #photos h2{ font-size: 50px;
+      font-family:"Tw Cen MT";
+     padding-left: 37%;
+     color: red;
+     letter-spacing: 10px;
+   
+   }
+   #photos span{ font-size: 15px;
+      font-family:"Tw Cen MT";
+     padding-left: 30px;
+     padding-right: 50px;
+     color: black; 
+   }
+   p{
+   
+      color: rgb(43, 40, 40);
+      padding-left: 10px;
+      padding: 10px;
+      font-size: 16px;
+      font-family: 'Cambria';
+      font-size: 20px;
+
+   }
+    img{background-color: antiquewhite;}
+    #t {
+      color: #171617;
+       padding-left: 500px;
+      font-size: 55px;
+       line-height: 50px;
+       font-weight: bold;
+       letter-spacing: 0px;
+       font-family: "Cinzel";
+   
+   }
+
+
+   
+
